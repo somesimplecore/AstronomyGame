@@ -6,9 +6,12 @@ TagManager:
   tags:
   - GravitySwitcher
   - SpriteWithoutSpaceSuit
-  - SpiteInSpaceSuit
   - ItemBox
   - SpaceSuit
+  - SpriteInSpaceSuit
+  - Puzzle
+  - PuzzleInteractionScreen
+  - LevelExit
   layers:
   - Default
   - TransparentFX
