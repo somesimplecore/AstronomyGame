@@ -42,10 +42,10 @@
 
 ## Структура приложения:
 1. /AstronomyGame/Assets/Animations - директория с анимациями
- 1. /AstronomyGame/Assets/Animations/NPCTextBox - директория с анимациями диалогового облака
- 1. /AstronomyGame/Assets/Animations/Player - директория с анимациями игрока
- 1. /AstronomyGame/Assets/Fonts - директория с шрифтами для текста
- 1. /AstronomyGame/Assets/Prefabs - директория с шаблонами GameObject
+    1. /AstronomyGame/Assets/Animations/NPCTextBox - директория с анимациями диалогового облака
+    1. /AstronomyGame/Assets/Animations/Player - директория с анимациями игрока
+    1. /AstronomyGame/Assets/Fonts - директория с шрифтами для текста
+    1. /AstronomyGame/Assets/Prefabs - директория с шаблонами GameObject
 4. /AstronomyGame/Assets/Scenes - директория со сценами
 - /AstronomyGame/Assets/Scenes/LevelScenes - директория со сценами игровых уровней
 - /AstronomyGame/Assets/Scenes/MenuScenes - директория со сценами меню
