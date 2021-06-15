@@ -1,4 +1,4 @@
-![Logo](https://psv4.userapi.com/c532036/u247612266/docs/d15/ac447e84368e/logo.png?extra=gjZAD1s-9b3QJuOxqZfEtN27YE4j4fp1RYvc4bu8h3ouRqjJkz7VSB1HaUB7OVioOqwD9oC-OKyh6-PZfvqdlpNVNd6hd90YtLDy7dopVaz-VOr3EkOm209Ede9QrtLTbjpHRSQP8Ema7D4cuwqfYSHpnw)
+![Logo](https://psv4.userapi.com/c532036/u247612266/docs/d15/ac447e84368e/logo.png?extra=gjZAD1s-9b3QJuOxqZfEtN27YE4j4fp1RYvc4bu8h3ouRqjJkz7VSB1HaUB7OVioOqwD9oC-OKyh6-PZfvqdlpNVNd6hd90YtLDy7dopVaz-VOr3EkOm209Ede9QrtLTbjpHRSQP8Ema7D4cuwqfYSHpnw, "Game Logo")
 ## Название проекта: 
 "Astronomy"
 
