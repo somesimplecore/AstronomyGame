@@ -10,6 +10,7 @@ public class QuestsChecker : MonoBehaviour
     [SerializeField] private Puzzle Puzzle;
     [SerializeField] private SpaceSuit SpaceSuit;
     [SerializeField] private ItemBox ItemBox;
+    [SerializeField] private Journal Journal;
 
 
 
@@ -66,16 +67,19 @@ public class QuestsChecker : MonoBehaviour
         {
             CurrentQuest++;
             SpaceSuit.tag = "Untagged";
+        }
+        if(CurrentQuest == 8 && CheckEighthQuest())
+        {
+            CurrentQuest++;
             Puzzle.tag = "Puzzle";
         }
-        if (CurrentQuest == 8 && CheckEighthQuest())
+        if (CurrentQuest == 9 && CheckNinthQuest())
         {
             CurrentQuest++;
             Puzzle.tag = "Untagged";
         }
-        if (CurrentQuest == 9)
+        if (CurrentQuest == 10)
             Player.CanEndLevel = true;
-            
     }
 
     private bool CheckFirstQuest()
@@ -106,7 +110,7 @@ public class QuestsChecker : MonoBehaviour
 
     private bool CheckThirdQuest()
     {
-        return Player.CurrentSprite.CompareTag("SpriteInSpaceSuit");
+        return Player.IsInSpaceSuit;
     }
     
     private bool CheckFourthQuest()
@@ -126,10 +130,14 @@ public class QuestsChecker : MonoBehaviour
     
     private bool CheckSeventhQuest()
     {
-        return Player.CurrentSprite.CompareTag("SpriteWithoutSpaceSuit");
+        return !Player.IsInSpaceSuit;
     }
     
     private bool CheckEighthQuest()
+    {
+        return Journal.Canvas.enabled;
+    }
+    private bool CheckNinthQuest()
     {
         return Puzzle.IsSolved;
     }

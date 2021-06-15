@@ -12,6 +12,7 @@ TagManager:
   - Puzzle
   - PuzzleInteractionScreen
   - LevelExit
+  - Platform
   layers:
   - Default
   - TransparentFX

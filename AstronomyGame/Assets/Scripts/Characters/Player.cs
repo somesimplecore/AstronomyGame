@@ -4,37 +4,43 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bool Bool;
     public float Speed = 3;
     public float JumpForce = 5;
     public Inventory Inventory;
-
+    public Animator Animation;
+    public SpriteRenderer SpriteRenderer;
+    public GroundChecker GroundChecker;
 
     public Rigidbody2D RigitBody;
-    public SpriteRenderer CurrentSprite;
-    public SpriteRenderer SpriteWithoutSpaceSuit;
-    public SpriteRenderer SpriteInSpaceSuit;
+    public bool IsInSpaceSuit;
     public bool IsGrounded;
     public bool CanEndLevel;
+    public bool IsRunning;
 
     private float DirectionValue = 0;
+    private bool IsRunButtonPressed;
 
     public GameObject IntersectedObj;
 
 
     private void Start()
     {
-        SpriteInSpaceSuit.enabled = false;
-        SpriteInSpaceSuit.enabled = false;
+
     }
 
     private void FixedUpdate()
     {
-        CheckGround();
+
     }
 
     private void Update()
     {
         Run();
+        IsRunningCheck();
+        Animation.SetBool("IsJumping", !GroundChecker.IsGrounded);
+        Animation.SetBool("IsRunning", IsRunning);
+        Animation.SetBool("IsInSpaceSuit", IsInSpaceSuit);
     }
 
     private void Run()
@@ -45,14 +51,15 @@ public class Player : MonoBehaviour
     public void OnLeftButtonDown()
     {
         DirectionValue = -1;
-        CurrentSprite.flipX = true;
+        SpriteRenderer.flipX = true;
     }
 
     public void OnRightButtonDown()
     {
         DirectionValue = 1;
-        CurrentSprite.flipX = false;
+        SpriteRenderer.flipX = false;
     }
+
 
     public void OnButtonUp()
     {
@@ -66,14 +73,8 @@ public class Player : MonoBehaviour
 
     public void OnJumpButton()
     {
-        if (IsGrounded)
+        if (GroundChecker.IsGrounded)
             Jump();
-    }
-
-    private void CheckGround()
-    {
-        Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 6.5f);
-        IsGrounded = collider.Length > 1;
     }
 
     private void DoSmthIfSomeObjectNear()
@@ -93,5 +94,10 @@ public class Player : MonoBehaviour
     public void OnInteractionButton()
     {
         DoSmthIfSomeObjectNear();
+    }
+
+    private void IsRunningCheck()
+    {
+        IsRunning = DirectionValue != 0;
     }
 }

@@ -12,11 +12,7 @@ public class SpaceSuit : MonoBehaviour
     {
         Sprite.enabled = !Sprite.enabled;
 
-        var isFliped = player.CurrentSprite.flipX;
-        player.CurrentSprite.enabled = false;
-        player.CurrentSprite = player.CurrentSprite == player.SpriteWithoutSpaceSuit ? player.SpriteInSpaceSuit : player.SpriteWithoutSpaceSuit;
-        player.CurrentSprite.enabled = true;
-        player.CurrentSprite.flipX = isFliped;
+        player.IsInSpaceSuit = !player.IsInSpaceSuit;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

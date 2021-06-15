@@ -57,6 +57,5 @@ public class DialogueManager : MonoBehaviour
     {
         CloudAnimator.SetBool("StartClose", true);
         CloudAnimator.SetBool("IsClosed", true);
-
     }
 }
