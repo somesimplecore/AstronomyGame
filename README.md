@@ -64,3 +64,4 @@
     1. /AstronomyGame/Assets/Sprites/LevelsBacgrounds - директория для изображений заднего фона уровней
     1. /AstronomyGame/Assets/Sprites/Objects - директория с изображениями игровых объектов
     1. /AstronomyGame/Assets/Sprites/menu - директория для изображений для главного меню
+    2. /AstronomyGame/Assets/Sprites/GameIcon - директория с иконкой приложения
