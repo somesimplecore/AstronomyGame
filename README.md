@@ -47,19 +47,19 @@
     1. /AstronomyGame/Assets/Fonts - директория с шрифтами для текста
     1. /AstronomyGame/Assets/Prefabs - директория с шаблонами GameObject
 4. /AstronomyGame/Assets/Scenes - директория со сценами
-- /AstronomyGame/Assets/Scenes/LevelScenes - директория со сценами игровых уровней
-- /AstronomyGame/Assets/Scenes/MenuScenes - директория со сценами меню
+    1. /AstronomyGame/Assets/Scenes/LevelScenes - директория со сценами игровых уровней
+    1. /AstronomyGame/Assets/Scenes/MenuScenes - директория со сценами меню
 5. /AstronomyGame/Assets/Scripts - директория со скриптами
-- /AstronomyGame/Assets/Scripts/Characters - директория со скриптами действующих персонажей и игрока
-- /AstronomyGame/Assets/Scripts/Dialogue - директория со скриптами для диалогового окна
-- /AstronomyGame/Assets/Scripts/Journal - директория со скриптами для журнала с планетами
-- /AstronomyGame/Assets/Scripts/MenuInGame - директория со скриптами для внутриигрового меню
-- /AstronomyGame/Assets/Scripts/Objects - директория со скриптами для игровых интерактивных объектов
-- /AstronomyGame/Assets/Scripts/Puzzle - директория со скриптами для головоломки с созведиями
-- /AstronomyGame/Assets/Scripts/ScenesChagers - директория со скриптаим для изменениями сцен
-- /AstronomyGame/Assets/Scripts/Test - директория со скриптами для тестирования после прохождения уровня
+    1. /AstronomyGame/Assets/Scripts/Characters - директория со скриптами действующих персонажей и игрока
+    1. /AstronomyGame/Assets/Scripts/Dialogue - директория со скриптами для диалогового окна
+    1. /AstronomyGame/Assets/Scripts/Journal - директория со скриптами для журнала с планетами
+    1. /AstronomyGame/Assets/Scripts/MenuInGame - директория со скриптами для внутриигрового меню
+    1. /AstronomyGame/Assets/Scripts/Objects - директория со скриптами для игровых интерактивных объектов
+    1. /AstronomyGame/Assets/Scripts/Puzzle - директория со скриптами для головоломки с созведиями
+    1. /AstronomyGame/Assets/Scripts/ScenesChagers - директория со скриптаим для изменениями сцен
+    1. /AstronomyGame/Assets/Scripts/Test - директория со скриптами для тестирования после прохождения уровня
 6. /AstronomyGame/Assets/Sprites - директория с изображениями
-- /AstronomyGame/Assets/Sprites/GameButtons - директория с изображениями для игровых кнопок
-- /AstronomyGame/Assets/Sprites/LevelsBacgrounds - директория для изображений заднего фона уровней
-- /AstronomyGame/Assets/Sprites/Objects - директория с изображениями игровых объектов
-- /AstronomyGame/Assets/Sprites/menu - директория для изображений для главного меню
+    1. /AstronomyGame/Assets/Sprites/GameButtons - директория с изображениями для игровых кнопок
+    1. /AstronomyGame/Assets/Sprites/LevelsBacgrounds - директория для изображений заднего фона уровней
+    1. /AstronomyGame/Assets/Sprites/Objects - директория с изображениями игровых объектов
+    1. /AstronomyGame/Assets/Sprites/menu - директория для изображений для главного меню
